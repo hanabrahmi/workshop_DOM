@@ -1,0 +1,41 @@
+body {
+    background-color: rgb(237, 102, 145);
+}
+.shopp {
+    background-color: white;
+    margin: auto;
+    padding: 20px;
+    height: 350px;
+    width: 800px;
+    margin-top: 50px;
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px 0;
+    
+}
+.mb-3 {
+    display: flex;
+    align-items: center;
+}
+.shopp img {
+    width: 100px;
+    height: 120px;
+}
+.shopp input {
+    width: 80px;
+    height: 30px;
+    margin: 0 5px;
+}
+.shopp h4 {
+    display: flex;
+    justify-content: center;
+}
+.shopp .total-price {
+    display: flex;
+    justify-content: center;
+}
+.fa-heart {
+    color: black;
+}
+.fa-heart.active {
+    color: red;
+}
