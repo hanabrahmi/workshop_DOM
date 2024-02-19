@@ -22,6 +22,13 @@ function resetQuantity(inputId) {
     total();
 }
 
+// Function to reset an entire item
+function resetItem(itemId) {
+    const item = document.getElementById(itemId);
+    item.remove();
+    total();
+}
+
 // Function to toggle heart color
 function toggleHeartColor(heart) {
     heart.classList.toggle('active');
@@ -60,11 +67,11 @@ document.getElementById('btn-minus').addEventListener('click', function() {
 });
 
 document.getElementById('btn-danger').addEventListener('click', function() {
-    resetQuantity('quantite1');
+    resetItem('item1');
 });
 
 document.getElementById('btn-delete').addEventListener('click', function() {
-    resetQuantity('quantite2');
+    resetItem('item2');
 });
 
 // Initial total calculation
